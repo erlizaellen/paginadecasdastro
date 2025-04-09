@@ -1,0 +1,204 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+.exercise {
+    margin: 20px 0;
+    padding: 20px;
+    border: 1px solid #ddd;
+    background-color: #f9f9f9;
+}
+
+/* Exercicio 1: Centralizar uma div */
+.exercise1 {
+    position: relative;
+    height: 200px;
+    border: 1px solid #ccc;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+.exercise1 .box {
+    width: 100px;
+    height: 100px;
+    background-color: #007bff;
+
+   
+   
+}
+
+
+
+/* Exercicio 2: Centralizar texto verticalmente */
+.exercise2 {
+    height: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    display: flex;
+}
+.exercise2 .column {
+    width: 30%;
+    height: 100px;
+    background-color: #ffc107;
+    text-align: center;
+    line-height: 100px;
+    border: 1px solid #ccc;
+   
+  
+    
+
+}
+
+/* Exercicio 3: Layout em coluna */
+.exercise3 {
+    display: flex;
+    flex-direction: column;
+}
+.exercise3 .column {
+    width: 30%;
+    height: 100px;
+    background-color: #ffc107;
+    text-align: center;
+    line-height: 100px;
+    border: 1px solid #ccc;
+    
+}
+
+/* Exercicio 4: centralizar e arredondar*/
+.exercise4 {
+  
+}
+.exercise4 .column {
+    width: 400px;
+    height: 100px;
+    color: #fff;
+    background-color: #28a745;
+    text-align: center;
+    line-height: 100px;
+    border: 1px solid #ccc;
+    border-radius: 60px;
+
+}
+
+/* Exercicio 5: Alinhamento flexível */
+.exercise5 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.exercise5 .flex-item {
+    background-color: #6c757d;
+    color: white;
+    padding: 20px;
+    margin: 5px;
+    
+}
+
+/* Exercicio 6: Botão */
+.exercise6 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.exercise6 button {
+    width: 200px;
+    height: 80px;
+    border: none;
+    background-color: #007bff;
+    border-radius: 10px;
+    color: aliceblue;
+    font-weight: bold;
+    font-size: 30px;
+
+
+}
+
+
+/* Exercicio 7: Input */
+.exercise7 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.exercise7 input {
+    width: 220px;
+    height: 70px;
+    border-radius: 20px;
+    background-color: black;
+    padding: 5px;
+
+
+}
+.exercise7 input::placeholder {
+    font-weight: bold;
+    font-size: 20px;
+    
+
+}
+
+.exercise8 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.exercise8 input{
+    width: 300px;
+    height: 50px;
+   border: #007bff;
+    border: solid 1px blue;
+  border-bottom:;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+     padding: 5px;
+    font-weight: bold;
+     
+}
+
+.exercise9 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+
+.exercise9 button{
+display: flex;
+align-items: center;
+justify-content: center;
+  width: 290px;
+    height: 60px;
+    border: none;
+    background-color: #5881af;
+    border-radius: 10px;
+    color: aliceblue;
+    font-weight: bold;
+    font-size: 15px;
+}
+.exercise9 .icone {
+width: 10%;
+font-size: 30px;
+margin-left: 5px;
+}
+.exercise9 .texto{
+    width: 90%;
+    display: flex;
+    font-weight: bold;
+ justify-content: start;
+ margin-left: 15px;
+ font-size: 20px;
+
+
+
+}
+/* concluido */
