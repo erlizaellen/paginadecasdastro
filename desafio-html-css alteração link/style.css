@@ -134,16 +134,13 @@
     height: 60px;
     bottom: 40px;
     right: 50px;
-    background-color: #25d366;
-    color: #FFF;
+    /* background-color: #25d366; */
+    /* color: #FFF; */
     border-radius: 50px;
     text-align: center;
-    font-size: 38px;
-    box-shadow: 1px 1px 2px #888;
-    z-index: 1000;
+    font-size: 60px;
+    /* box-shadow: 1px 1px 2px #888; */
+    /* z-index: 1000; */
    
   }
-  .botaodewhatsapp #animacao{
-
-    transform-origin: 281.3px 174.7px;
-  }
+ 
